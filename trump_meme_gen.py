@@ -11,9 +11,11 @@ from asciimatics.exceptions import ResizeScreenError
 import random
 
 cwd = os.getcwd()
-icwd = os.getcwd() + '\\trump_pics\\'
+
+icwd = os.getcwd() + '/trump_pics/'
 
 images = []
+
 phrase_list = []
 
 for filename in os.listdir(icwd):
@@ -42,9 +44,9 @@ def demo(screen):
               stop_frame=200),
         Print(screen,
               FigletText(random.choice(phrase_list),
-                         font='banner3' if screen.width > 80 else 'banner'),
-              screen.height//2-3,
-              colour=7, bg=7 if screen.unicode_aware else 0),
+                         font='usaflag' if screen.width > 80 else 'banner'),
+              screen.height//1-8,
+              colour=195, bg=200 if screen.unicode_aware else 0),
     ]
     scenes.append(Scene(effects))
     effects = [

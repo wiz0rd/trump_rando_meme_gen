@@ -26,6 +26,8 @@ with open('phrases.txt', 'r') as f:
         line = line.rstrip()
         phrase_list.append(line)
 
+fore_select = [195, 255]
+back_select = [200, 14]
 def demo(screen):
     image = icwd + random.choice(images)
     scenes = []
@@ -46,7 +48,7 @@ def demo(screen):
               FigletText(random.choice(phrase_list),
                          font='usaflag' if screen.width > 80 else 'banner'),
               screen.height//1-8,
-              colour=195, bg=200 if screen.unicode_aware else 0),
+              colour=random.choice(fore_select), bg=random.choice(back_select) if screen.unicode_aware else 0),
     ]
     scenes.append(Scene(effects))
     effects = [

@@ -1,0 +1,4 @@
+Image: Three.jpg
+Phrase: Suck Eggs!
+Font: standard
+Black & White: False

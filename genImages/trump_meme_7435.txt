@@ -1,0 +1,6 @@
+Meme Info:
+Image: trump_funny_face.jpg
+Phrase: Whack-a-doodle
+Font: doom
+Display Mode: normal
+Text Color: rainbow

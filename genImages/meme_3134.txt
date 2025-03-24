@@ -1,0 +1,4 @@
+Image: 2.41227404.jpg
+Phrase: FanTASTIC!
+
+[Error extracting ASCII art: too many values to unpack (expected 3)]

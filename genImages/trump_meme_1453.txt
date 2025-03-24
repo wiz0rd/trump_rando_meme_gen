@@ -1,0 +1,6 @@
+Meme Info:
+Image: 2.41227404_ascii.txt
+Phrase: ButtHole!
+Font: shadow
+Display Mode: ascii
+Text Color: red

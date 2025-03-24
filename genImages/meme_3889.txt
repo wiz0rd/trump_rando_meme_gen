@@ -1,0 +1,4 @@
+Image: trump_surprised.jpg
+Phrase: Radical.
+
+[Error generating ASCII art from /home/wiz0rd/Projects/git/trump_rando_meme_gen/trump_pics/trump_surprised.jpg]

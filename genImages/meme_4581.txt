@@ -1,0 +1,4 @@
+Image: R (1).jpg
+Phrase: Dip Shit!
+
+[Error generating ASCII art: ImageFile.__init__() got an unexpected keyword argument 'uni']

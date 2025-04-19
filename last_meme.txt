@@ -1,1 +1,0 @@
-Path to the last generated meme. Implement actual saving logic here.
